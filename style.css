@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+     /* box-sizing: border-box; */
+ 
+}
+body{
+    font-family: sans-serif;
+    color: #343a40; 
+    border-bottom:8px solid #2d7a3a;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    margin-bottom:100px;
+}
+
+img{
+    margin-top: 12px;
+}
+
+header{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    column-gap: 80px;
+    margin-top:80px;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    letter-spacing: 1;
+    text-shadow:0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.details{
+    margin-bottom: 40px;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.a-1{
+    background-color: green;
+    color: white;
+    padding: 22px 42px;
+    border-radius:100px ;
+    list-style-type:none ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.a-1:hover{
+    background-color: #51c551;
+}
+
+
+img{
+    border-radius: 12px;
+}
+
+.header-text{
+    margin-top: 50px;
+    font-size: larger;
+    line-height: 1.2;
+}
+
+.box-1{
+    font-size: 24px;
+    margin-bottom:48px;
+}
+
+.box-2{
+    display: flex;
+    gap:50px ;
+    font-size: 18px;
+}
+
+.chair-icon{
+    stroke: #2d7a3a;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 22px;
+}
+
+.chair-head{
+    font-size: 22px;
+}
+
+.chair-details{
+    margin-top: 18px;
+    line-height: 1.4;
+}
+
+.testimonial-section{
+    background-color: #2d7a3a;
+    padding:12px 12px;
+    gap: 50px;
+    border-radius: 12px;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+
+.col-1{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 80px;
+}
+
+.testimonial-text{
+    font-style: italic;
+    font-size: 18px;
+    color: #e6fcf5;
+    line-height: 1.8;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.testimonial-author{
+   color: #c3fae8;
+   font-size: 28px;
+}
+
+.testimonial-box{
+    grid-column: 2/-1;
+    align-items: center;
+}
+
+.testimonial-box h2{
+    margin-top:38px ;
+    color:#fbfbfb ;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
