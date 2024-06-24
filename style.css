@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-     /* box-sizing: border-box; */
+     box-sizing: border-box; 
  
 }
 body{
     font-family: sans-serif;
     color: #343a40; 
-    border-bottom:8px solid #2d7a3a;
+     border-bottom:8px solid #087f5b; 
 }
 
 .container{
@@ -20,7 +20,8 @@ header{
 }
 
 img{
-    margin-top: 12px;
+    width: 100%;
+    margin-top: 0px;
 }
 
 header{
@@ -34,7 +35,7 @@ h1{
     font-size: 45px;
     margin-bottom: 30px;
     line-height: 1.1;
-    letter-spacing: 1;
+    letter-spacing: -1;
     text-shadow:0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -46,10 +47,10 @@ h1{
     font-weight: 400;
 }
 
-.a-1{
-    background-color: green;
+.a--1{
+    background-color: #087f5b;
     color: white;
-    padding: 22px 42px;
+    padding: 18px 42px;
     border-radius:100px ;
     list-style-type:none ;
     text-transform: uppercase;
@@ -58,13 +59,13 @@ h1{
     font-size: 16px;
 }
 
-.a-1:hover{
-    background-color: #51c551;
+.a--1:hover{
+    background-color: #0ca678;
 }
 
 
 img{
-    border-radius: 12px;
+     border-radius: 12px;
 }
 
 .header-text{
@@ -85,9 +86,9 @@ img{
 }
 
 .chair-icon{
-    stroke: #2d7a3a;
-    width: 30px;
-    height: 30px;
+    stroke: #087f5b;
+    width: 32px;
+    height:32px;
     margin-bottom: 22px;
 }
 
@@ -101,45 +102,123 @@ img{
 }
 
 .testimonial-section{
-    background-color: #2d7a3a;
-    padding:12px 12px;
+    background-color: #087f5b;
+     padding:18px;
     gap: 50px;
     border-radius: 12px;
     margin-top: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 90px;
 }
 
 
 .col-1{
   display: grid;
   grid-template-columns:repeat(3, 1fr);
-  gap: 80px;
+  gap: 70px;
 }
 
 .testimonial-text{
     font-style: italic;
     font-size: 18px;
     color: #e6fcf5;
-    line-height: 1.8;
+    line-height: 1.6;
     margin-bottom: 24px;
     margin-top: 16px;
 }
 
 .testimonial-author{
    color: #c3fae8;
-   font-size: 28px;
+   font-size: 24px;
 }
 
 .testimonial-box{
     grid-column: 2/-1;
     align-items: center;
+
 }
 
 .testimonial-box h2{
-    margin-top:38px ;
+    margin-top:32px ;
     color:#fbfbfb ;
     margin-bottom: 10px;
     font-size: 24px;
 }
 
+/* .selling-list{
+    margin-bottom: 40px;
+    font-size: 38px;
+} */
+
+.chair {
+     box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07); 
+     border-radius: 12px; 
+}
+
+.chair img{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.section-3{
+    font-size: 38px;
+    margin-bottom: 44px;
+}
+
+.chair-box{
+    margin-top:24px;
+    margin-left: 32px;
+}
+
+.chair-icon-1{
+    stroke: #2d7a3a;
+    width: 24px;
+    height: 24px;
+    margin-right: 18px;
+}
+
+.chair-box h4{
+    font-size: 22px;
+}
+
+.chair-price{
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-top: 44px;
+  margin-bottom: 24px;
+}
+
+strong{
+    font-size: 24px;
+}
+
+.btn{
+    background-color: #087f5b;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 100px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+     background-color: #0ca678; 
+}
+
+.chair-list li{
+    list-style: none;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer p{
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
 
